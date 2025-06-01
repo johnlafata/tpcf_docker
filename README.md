@@ -45,3 +45,10 @@ cf push
 cf ssh tpcf_docker
 wget  books_api.apps.agi-explorer.com
 ```
+
+self-signed cert error?
+```
+wget --no-check-certificate https://books_api.apps.agi-explorer.com
+```
+
+but how to trust self-signed cert?

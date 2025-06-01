@@ -2,8 +2,8 @@
 applications:
   - name: tpcf_docker
     disk_quota: 2G
-    readiness-health-check-type: process
-    health-check-type: process
     docker:
       image: jltestcr.azurecr.io:443/alpine-bash:latest
       username: jltestcr
+    readiness-health-check-type: process
+    health-check-type: process

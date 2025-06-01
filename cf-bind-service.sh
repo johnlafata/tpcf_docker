@@ -1,0 +1,1 @@
+cf bs tpcf_docker  smb-service  -c ./bind-params.json
